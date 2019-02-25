@@ -1,4 +1,4 @@
-# JGmaeSDK使用帮助
+# JGameSDK使用帮助
 
 ## 1. 安装
 
