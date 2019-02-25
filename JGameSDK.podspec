@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JGameSDK'
   s.version          = '1.0'
-  s.summary          = 'A short description of JGameSDK.'
+  s.summary          = '19youxi iOS SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://xyz.fancyjohn.com:30000/john/JGameSDKDist.git'
+  s.homepage         = 'https://github.com/wishWinds/JGameSDK'
   s.license          = { :type => 'MIT'}
   s.author           = { 'john' => 'john.hi.gm@gmail.com' }
   s.source           = { :http => 'http://xyz.fancyjohn.com:50001/jgamesdk/JGameSDK-1.0.zip'}
