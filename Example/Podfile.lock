@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - AlipaySDK-iOS (15.5.9)
-  - JGameSDK (1.0):
+  - JGameSDK (1.1):
     - AFNetworking (~> 3.0)
     - AlipaySDK-iOS
     - Masonry
@@ -24,7 +24,7 @@ PODS:
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - JGameSDK
+  - JGameSDK (= 1.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -37,10 +37,10 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
-  JGameSDK: 553c5ae2d55f12b00d561136c017efe51325c5d0
+  JGameSDK: 9ff94ab2557a929b2ed89c49752e746554ed3903
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 9641a3f517c079d8483956fd059bb711fc2a8958
+PODFILE CHECKSUM: aa1b31871490d0b652e5e187efbed66dcc3f9486
 
 COCOAPODS: 1.6.1

@@ -4,7 +4,7 @@
 
 使用cocoapods安装
 
-`pod 'JGameSDK'`
+`pod 'JGameSDK', '1.1'`
 
 ## 2. 配置支付宝、微信的回调scheme
 
