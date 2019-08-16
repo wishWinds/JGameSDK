@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'JGameSDK_Example' do
-  pod 'JGameSDK', '1.1'
+  pod 'JGameSDK', '2.0'
 
   target 'JGameSDK_Tests' do
     inherit! :search_paths

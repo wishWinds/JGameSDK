@@ -1,0 +1,6 @@
+framework module JGameSDK {
+  umbrella header "JGameSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

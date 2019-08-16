@@ -4,35 +4,27 @@
 
 使用cocoapods安装
 
-`pod 'JGameSDK', '1.1'`
-
-## 2. 配置支付宝、微信的回调scheme
-
-![image-20190224235633310](assets/image-20190224235633310-1023793.png)
-
-第一项: `JGameSDK`
-
-第二项: `test.19youxi.com`, 需将test替换为您实际的内部游戏appid. 非AppStore的appid.
-
-## 3. 配置允许http调用和查询能否打开微信APP的功能
-
-![image-20190224235857584](assets/image-20190224235857584-1023937.png)
+`pod 'JGameSDK', '~>2.0'`
 
 
-### 3.1. 添加`LSApplicationQueriesSchemes` , 并设置成Array. 添加项`weixin`
 
-### 3.2. 允许HTTP调用
+## 2. 配置支付宝回调scheme
+
+![image-20190816164450341](README.assets/image-20190816164450341.png)
+
+
+
+## 3. 配置允许http调用
+
+![image-20190816164613580](README.assets/image-20190816164613580.png)
 
 
 
 ## 4. 代码调用
 
-### 4.1. 开启SDK, 并注册回调
+### 4.1. 注册回调
 
 ```objective-c
-// 开启应用
-// 此处的scheme必须与第二步配置的scheme一致.
-[[JGameSDK shared] openWithWechatScheme:@"test.19youxi.com"];
 // 注册回调
 [JGameSDK shared].delegate = self;
 ```

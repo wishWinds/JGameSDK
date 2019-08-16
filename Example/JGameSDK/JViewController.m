@@ -18,8 +18,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // 开启应用
-    [[JGameSDK shared] openWithWechatScheme:@"test.19youxi.com"];
     // 注册回调
     [JGameSDK shared].delegate = self;
 }
@@ -33,7 +31,7 @@
     // 创建1分钱订单信息. appid请填写游戏实际的id
     // 其他信息请填写正确且完整.
     OrderRequestEntity *entity = [[OrderRequestEntity alloc] init];
-    entity.appid = @"1001";
+    entity.appid = @"sczg";
     entity.server_id = @"test";
     entity.server_name = @"test";
     entity.role_id = @"test";
