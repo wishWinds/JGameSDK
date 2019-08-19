@@ -4,7 +4,7 @@
 
 使用cocoapods安装
 
-`pod 'JGameSDK', '~>2.0'`
+`pod 'JGameSDK', '~>2.1'`
 
 
 
