@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JGameSDK'
-  s.version          = '2.0'
+  s.version          = '2.1'
   s.summary          = 'JGame iOS SDK'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ JGame 游戏SDK
   s.homepage         = 'https://github.com/wishWinds/JGameSDK'
   s.license          = { :type => 'MIT'}
   s.author           = { 'john' => 'john.hi.gm@gmail.com' }
-  s.source           = { :http => 'http://xyz.fancyjohn.com:50001/jgamesdk/JGameSDK-2.0.zip'}
+  s.source           = { :http => 'http://xyz.fancyjohn.com:50001/jgamesdk/JGameSDK-2.1.zip'}
 
   s.platform = :ios
   s.ios.deployment_target = '8.0'
